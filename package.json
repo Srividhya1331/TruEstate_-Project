@@ -1,15 +1,13 @@
 {
-  "name": "truestate-backend",
+  "name": "truestate-assignment",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "cors": "^2.8.5"
+    "data:convert": "node convert-csv-to-json.js",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "concurrently": "^8.2.2",
+    "csv-parser": "^3.0.0"
   }
 }
