@@ -7,5 +7,6 @@ app.use(cors());
 app.use(express.json());
 app.use("/api/sales", salesRouter);
 
-const PORT = 4000;
+const PORT = 30001;
 app.listen(PORT, () => console.log(`Backend: http://localhost:${PORT}`));
+
