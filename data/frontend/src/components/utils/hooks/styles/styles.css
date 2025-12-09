@@ -1,0 +1,10 @@
+.app { padding: 2rem; max-width: 1400px; margin: 0 auto; }
+.controls { display: flex; gap: 1rem; margin: 2rem 0; }
+.search { flex: 1; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; }
+select { padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #f5f5f5; font-weight: 600; }
+.pagination { display: flex; gap: 1rem; justify-content: center; padding: 1rem; }
+button { padding: 0.5rem 1rem; border: 1px solid #007bff; background: #007bff; color: white; border-radius: 4px; cursor: pointer; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
